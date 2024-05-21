@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warner bros</title>
+    <link rel="stylesheet" href="stylesss.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Wrner bros Logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Tv show.html">TV Shows</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="Games.html">Games</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="about us.html">Feedback</a></li>
+                    <li><a href="Login.html">Collection</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <h1>Feedback</h1>
+    <main>
+            <form id="feedbackForm" action="submit_feedback.php" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+        
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+        
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </main>
+    </body>
+    
+        <footer>
+            <div class="container">
+                <img src="socials.png" alt="Contacts">
+                <p>&copy; 2024 Warner bros</p>
+            </div>
+        </footer>
+  
+    </html>
+    
